@@ -1,14 +1,22 @@
-export default function HEFNSWWebsite() {
-  return (
-    <main className="min-h-screen bg-white text-gray-800 p-6">
-      <section className="text-center mb-12">
-        <h1 className="text-4xl font-bold mb-2">Sanatan Business Network NSW</h1>
-        <p className="text-lg">Rooted in Dharma. Built for Growth. Powered by Community.</p>
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sanatan Business Network NSW</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-white text-gray-800 p-6">
+    <main class="min-h-screen">
+      <section class="text-center mb-12">
+        <h1 class="text-4xl font-bold mb-2">Sanatan Business Network NSW</h1>
+        <p class="text-lg">Rooted in Dharma. Built for Growth. Powered by Community.</p>
       </section>
 
-      <section className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
-        <div className="p-6 rounded-2xl shadow-xl bg-gray-50">
-          <h2 className="text-2xl font-semibold mb-4">🌱 About Us</h2>
+      <section class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+        <div class="p-6 rounded-2xl shadow-xl bg-gray-50">
+          <h2 class="text-2xl font-semibold mb-4">🌱 About Us</h2>
           <p>
             We are building a Hindu business and professional network in New South Wales, grounded in
             Sanatan values. Our goal is to help members find complementary solutions, collaborate
@@ -16,8 +24,8 @@ export default function HEFNSWWebsite() {
           </p>
         </div>
 
-        <div className="p-6 rounded-2xl shadow-xl bg-gray-50">
-          <h2 className="text-2xl font-semibold mb-4">🧾 Join the Network</h2>
+        <div class="p-6 rounded-2xl shadow-xl bg-gray-50">
+          <h2 class="text-2xl font-semibold mb-4">🧾 Join the Network</h2>
           <p>
             Are you a Hindu entrepreneur, business owner, or professional in NSW? Fill out our form to
             join our growing community and connect with like-minded individuals.
@@ -25,38 +33,16 @@ export default function HEFNSWWebsite() {
           <a
             href="https://forms.gle/your-form-link"
             target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block mt-4 bg-blue-600 text-white px-4 py-2 rounded-xl hover:bg-blue-700"
+            class="inline-block mt-4 bg-blue-600 text-white px-4 py-2 rounded-xl hover:bg-blue-700"
           >
             Join Now
           </a>
         </div>
       </section>
 
-      <section className="p-6 rounded-2xl shadow-xl bg-gray-50 mb-12">
-        <h2 className="text-2xl font-semibold mb-4">📇 Member Directory</h2>
+      <section class="p-6 rounded-2xl shadow-xl bg-gray-50 mb-12">
+        <h2 class="text-2xl font-semibold mb-4">📇 Member Directory</h2>
         <p>
           Browse our current members, discover services, and find potential collaborators.
         </p>
         <a
-          href="https://airtable.com/your-directory-link"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-block mt-4 bg-green-600 text-white px-4 py-2 rounded-xl hover:bg-green-700"
-        >
-          View Directory
-        </a>
-      </section>
-
-      <section className="p-6 rounded-2xl shadow-xl bg-gray-50">
-        <h2 className="text-2xl font-semibold mb-4">📆 Upcoming Events</h2>
-        <p>Join our networking sessions, Dharma & Business talks, and local meetups.</p>
-        <ul className="list-disc list-inside mt-4">
-          <li>April 28: Online Community Meet & Greet</li>
-          <li>May 12: Workshop - Scaling with Sanatan Values</li>
-          <li>June 2: Parramatta Local Meetup</li>
-        </ul>
-      </section>
-    </main>
-  );
-}
